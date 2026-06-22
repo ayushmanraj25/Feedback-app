@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "System Admin",
+      "email": "admin@feedback.com",
+      "password": "$2a$10$ltyNO92WUCIN9Drq6JTENOMZDiuytaWwaqC8Fc6qLq2sL4iI.lP.K",
+      "role": "admin"
+    },
+    {
+      "id": "u2",
+      "name": "Jane Doe",
+      "email": "user@feedback.com",
+      "password": "$2a$10$zQVvVTx9P7yZAUBsPW3XrO0JsgGs2JX7YFcRaF9X0rsBRnRnFi1d6",
+      "role": "user"
+    },
+    {
+      "id": "u_1782121790030",
+      "name": "ayushman",
+      "email": "ayushmanraj430@gmail.com",
+      "password": "$2a$10$dax8zkOGizGsGot/AE6uUejHf52.wlzjhurMlFrr9Esuc7jLou7Ka",
+      "role": "user"
+    },
+    {
+      "id": "u_1782122705366",
+      "name": "krishna",
+      "email": "ayushmanraj406@gmail.com",
+      "password": "$2a$10$Jc5RJHtA/Q.RBpJw0I98uu70O80EMaVyj1dLo3f9FHNxU1REncZau",
+      "role": "user"
+    },
+    {
+      "id": "u_1782124237416",
+      "name": "anushka",
+      "email": "dallaa.one8@gmail.com",
+      "password": "$2a$10$Vv1q97hCCzOEjyiTQEe7x.c4DjKjBu.o0qgXRhJ/bfm6Tzv6UYICi",
+      "role": "user"
+    },
+    {
+      "id": "u_1782129402380",
+      "name": "Jhon ",
+      "email": "reyok91610@dyleris.com",
+      "password": "$2a$10$DtgWem0v9IbqjGz0NiAv5OAcPVB2vGgvgfgEagliqmWkIpXIy1a2C",
+      "role": "user"
+    },
+    {
+      "id": "u_1782130837927",
+      "name": "uuu",
+      "email": "aayuu.one8@gmail.com",
+      "password": "$2a$10$oAarxccxTnD8fCzxEg2D7.tstjCTSPx8/ELrteRHTycBp84/zVbQ.",
+      "role": "user"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "f1",
+      "title": "Mobile navigation drawer cut off on iOS devices",
+      "description": "When opening the navigation drawer on iOS Safari, the bottom menu items are hidden behind the system navigation bar. Hard to navigate.",
+      "category": "Bug",
+      "rating": 2,
+      "user": "Jane Doe",
+      "userId": "u2",
+      "status": "Under Review",
+      "createdAt": "2026-06-19T09:47:25.956Z",
+      "replies": []
+    },
+    {
+      "id": "f2",
+      "title": "Add dashboard export functionality (CSV/PDF)",
+      "description": "It would be amazing if admins could export feedback analytics and reports to CSV or PDF for presentations and sharing with team members.",
+      "category": "Feature Request",
+      "rating": 5,
+      "user": "Alex Smith",
+      "userId": "u3",
+      "status": "Planned",
+      "createdAt": "2026-06-21T09:47:25.957Z",
+      "replies": [
+        {
+          "id": "r1",
+          "user": "System Admin",
+          "userId": "u1",
+          "text": "This is a great suggestion, Alex! We have added this to our Q3 roadmap. We plan to support CSV export first, followed by PDF reports.",
+          "createdAt": "2026-06-21T21:47:25.957Z"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "title": "Speed up feedback page load times",
+      "description": "The dashboard takes about 3 seconds to render on slow connections. Let's optimize rendering and image payloads.",
+      "category": "Other",
+      "rating": 3,
+      "user": "Emma Watson",
+      "userId": "u4",
+      "status": "Completed",
+      "createdAt": "2026-06-17T09:47:25.957Z",
+      "replies": [
+        {
+          "id": "r2",
+          "user": "System Admin",
+          "userId": "u1",
+          "text": "We've implemented lazy loading for dashboard metrics and compressed our assets. Page load speeds should now be under 1 second!",
+          "createdAt": "2026-06-18T09:47:25.957Z"
+        }
+      ]
+    },
+    {
+      "id": "f_1782121907919",
+      "title": "not woring buttons properly",
+      "description": "not working ",
+      "category": "Bug",
+      "rating": 5,
+      "user": "ayushman",
+      "userId": "u_1782121790030",
+      "status": "Pending",
+      "createdAt": "2026-06-22T09:51:47.919Z",
+      "replies": []
+    },
+    {
+      "id": "f_1782122732464",
+      "title": "okk",
+      "description": "not working ",
+      "category": "General",
+      "rating": 5,
+      "user": "krishna",
+      "userId": "u_1782122705366",
+      "status": "Pending",
+      "createdAt": "2026-06-22T10:05:32.464Z",
+      "replies": []
+    },
+    {
+      "id": "f_1782124253969",
+      "title": "jhsjsef",
+      "description": "dsmvjsd",
+      "category": "Bug",
+      "rating": 2,
+      "user": "anushka",
+      "userId": "u_1782124237416",
+      "status": "Pending",
+      "createdAt": "2026-06-22T10:30:53.969Z",
+      "replies": []
+    },
+    {
+      "id": "f_1782126380793",
+      "title": "sg",
+      "description": "zsdfsd",
+      "category": "Feature Request",
+      "rating": 1,
+      "user": "ayushman",
+      "userId": "u_1782121790030",
+      "status": "Pending",
+      "createdAt": "2026-06-22T11:06:20.793Z",
+      "replies": []
+    },
+    {
+      "id": "f_1782129463017",
+      "title": "hf",
+      "description": "Invalid domain",
+      "category": "Feature Request",
+      "rating": 5,
+      "user": "Jhon ",
+      "userId": "u_1782129402380",
+      "status": "Pending",
+      "createdAt": "2026-06-22T11:57:43.018Z",
+      "replies": []
+    },
+    {
+      "id": "f_1782129972778",
+      "title": "test",
+      "description": "test",
+      "category": "General",
+      "rating": 5,
+      "user": "ayushman",
+      "userId": "u_1782121790030",
+      "status": "Pending",
+      "createdAt": "2026-06-22T12:06:12.778Z",
+      "replies": []
+    }
+  ]
+}
